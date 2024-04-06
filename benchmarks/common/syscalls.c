@@ -52,7 +52,7 @@ static char* counter_names[NUM_COUNTERS] = {
   "load-use interlock",
   "I$ blocked",
   "D$ blocked",
-}
+};
 
 #define HPM_EVENTSET_BITS       8
 #define HPM_EVENTSET_MASK       ((1U << HPM_EVENTSET_BITS) - 1)
